@@ -14,7 +14,7 @@ public abstract class Decorator implements Car{
         return super.toString();
     }
 
-    public void printInfo(){
-        System.out.println("Do nothing!");
+    public String printInfo(){
+         return "Do nothing!";
     }
 }

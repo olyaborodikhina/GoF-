@@ -4,7 +4,7 @@
 public class Launcher {
 
     public static void main(String[] args) {
-        Decorator c =  new ConcreteSecorator();
+        Decorator c =  new ConcreteDecorator();
         c.printInfo();
     }
 }

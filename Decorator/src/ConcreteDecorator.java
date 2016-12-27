@@ -13,7 +13,8 @@ public class ConcreteDecorator extends  Decorator {
     }
 
     @Override
-    public void printInfo() {
-        System.out.println("No information!");
+    public String  printInfo() {
+       System.out.println("No information!" + super.printInfo());
+        return "";
     }
 }
