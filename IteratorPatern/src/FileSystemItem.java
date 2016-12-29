@@ -5,4 +5,5 @@ import java.util.Iterator;
  */
 public interface FileSystemItem extends Iterable<FileSystemItem> {
 
+    String getName();
 }

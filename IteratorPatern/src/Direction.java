@@ -9,7 +9,11 @@ public class Direction implements FileSystemItem {
     String name;
     int size;
 
-    List<FileSystemItem> files = new ArrayList<>();
+    //List<FileSystemItem> files = new ArrayList<>();
+
+    public String getName(){
+        return  name;
+    }
 
     @Override
     public Iterator<FileSystemItem> iterator() {
@@ -25,6 +29,6 @@ public class Direction implements FileSystemItem {
             public FileSystemItem next(){
                 return that;
             }
-        }
+        };
     }
 }
